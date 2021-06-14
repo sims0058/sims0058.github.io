@@ -1,0 +1,40 @@
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color:rgb(8, 14, 73);
+    font-size: 18px;
+}
+
+
+header,footer{
+    background-color:lightsteelblue
+}
+
+.site-title{
+    color:sienna
+}
+
+#my-photo{
+    box-shadow: 0 0 2px 1px black;
+}
+
+main ul{
+list-style-type: square;
+}
+
+ul:nth-child(even){
+background-color:wheat
+}
+
+nav ul{
+    list-style: none;
+    border-style:solid;
+    background-color: rgb(130, 130, 190);
+}
+
+.whitelink{
+    color: white;
+    text-decoration: none;
+}
+.whitelink:hover{
+    color: tomato;
+}
