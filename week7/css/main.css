@@ -3,6 +3,26 @@ font-family: Arial, Helvetica, sans-serif;
 color:darkslategrey;
 /*adding background image*/
 background-image: url(../images/white_brick_wall.png);
+/*fixig the fixed nav overlap*/
+padding-top:92px;
+
+}
+
+.container{
+    max-width:1200px;
+    /* top-bottom left-right*/
+    margin: 0 auto;
+}
+img {
+    width:100%;
+}
+
+section p {
+    width: 50%;
+    padding:1em .5em;
+    /*Top Right Bottom Left */
+    margin: -1em 2em 2em 2em;
+
 }
 
 /* 
@@ -21,12 +41,22 @@ h3,
 h4 {
     text-decoration: underline;
 }
-/* Selecting child elements*/
+
 nav ul{
     list-style: none;
 }
+
+/* Selecting child elements*/
+nav ul li{
+    display: inline-block;
+    width: :49%;
+    padding: 1em;
+    box-sizing: border-box;
+}
+
 /* selecting child elements multiple level */
 nav ul a{
+    display:block;
     color:darkslategrey;
     text-decoration: none;
     font-size: 1.5rem;
@@ -34,6 +64,7 @@ nav ul a{
 }
 /* Selecting element with id value */
 #treatofweek{
+    position:relative;
     /*color image repeat position-x position-y */
     background: orange url(../images/bread.jpg) no-repeat center center;
     background-size: cover;
@@ -42,7 +73,7 @@ nav ul a{
 
     font-size: 1.25rem;
     /* 1.25 x 16 = 20px */
-    padding:1em;
+    padding:1em 1em 3em 1em;
     /*1 x 20 = 20px */
 
     /*viewport based unt*/
@@ -52,8 +83,18 @@ nav ul a{
 
 }
 
+.orange-link.large-text{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
 /* Selecting HTML elements with class name */
 .orange-link{
+    clear:left;
+    padding: 1.5em;
+    width: 300px;
+    display: block;
     background-color: darkslategrey;
     color: orange;
     text-decoration: none;
@@ -62,6 +103,22 @@ nav ul a{
     font-size:20px;
 }
 
+article,
+aside{
+    width: 80%;
+    background-color: rgba(225,255,255,0.6); 
+border:1px solid black;
+padding:1.5em;
+box-sizing:border-box;
+float:left;
+}
+
+aside{ width:20%
+}
+
+section{
+    clear:both;
+}
 
 
 /* Direct child selector*/
@@ -90,6 +147,16 @@ img[src$=".jpg"] {
 /* using pseudo classes
 styling navigation
 */
+
+/*fixed navigation*/
+nav{
+    position: fixed;
+    top 0;
+    left: 0;
+    width: 100%;
+    background-color: rgba(0, 0, 0.8);
+    z-index:999;
+}
 
 nav ul a,
 nav ul a:link,
@@ -161,4 +228,12 @@ body footer {
 /* 0001 */
 footer {
     background-color: red;
+}
+/* CSS box model */
+
+section p {
+    width: 50%;
+    padding:1em .5em;
+    /*Top Right Bottom Left */
+    margin: -1em 2em 2em 2em;
 }
