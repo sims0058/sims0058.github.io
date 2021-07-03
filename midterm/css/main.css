@@ -48,6 +48,7 @@ body{
     color:rgb(0, 0, 0);
     background-color: rgb(96, 207, 207);
     
+    
 }
 
 .container{
@@ -58,7 +59,9 @@ body{
     background-color: #d8fcf9;
     font-size: 1rem;
     padding:0em 2em 2em 2em;
+    line-height: 1.5em;
 }
+
 
 #bannercolor{
     font-size: 44px;
@@ -77,5 +80,30 @@ body{
     list-style-type: square;
 }
 
+form{
+    border: 1px solid black;
+    margin-left: auto;
+    margin-left: auto;
+    max width: 500px;
+    padding: 15px 15px 10px 15px;
+    margin-top:4px;
+}
 
+#fullname{
+    width: 100%;
+    padding: 4px;
+}
+
+#youremail{
+    width: 100%;
+    padding: 4px;
+}
+
+#message{
+    width: 100%;
+    height: 100px;
+    padding: 4px;
+}
+
+  
 
