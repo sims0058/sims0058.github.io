@@ -60,12 +60,44 @@ body{
     font-size: 1rem;
     padding:0em 2em 2em 2em;
     line-height: 1.5em;
+    position: relative;
 }
 
+.centertext{
+    
+    top: 50%;
+    left: 50%;
+    text-align: center;
+    font-size: 45px;
+    color:white;
+  
+}
 
-#bannercolor{
-    font-size: 44px;
-    color: white;
+nav ul a{
+    color:rgb(0, 0, 0);
+    text-decoration: none;
+    font-size: 1.5rem;
+    text-align: center;
+    
+    }
+
+    nav ul a:hover{
+        color: teal;
+    }
+
+    nav li{
+    display: inline;
+    color: rgb(0, 0, 0);
+    padding: 20px;
+    text-decoration: none;
+    }
+
+
+
+img[src$="starfish.jpg"] {
+width: 200px;
+float: left;
+margin: 10px;
 }
 
 #title2{
@@ -104,6 +136,10 @@ form{
     height: 100px;
     padding: 4px;
 }
-
+button{
+    background-color: #d8fcf9;
+}
   
-
+footer{
+    margin-top: 10px;
+}
