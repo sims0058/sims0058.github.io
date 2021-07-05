@@ -11,150 +11,112 @@ article, aside, canvas, details, embed,
 figure, figcaption, footer, header, hgroup, 
 menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
-	margin: 0;
-	padding: 0;
-	border: 0;
-	font-size: 100%;
-	font: inherit;
-	vertical-align: baseline;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
 }
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure, 
 footer, header, hgroup, menu, nav, section {
-	display: block;
+    display: block;
 }
 body {
-	line-height: 1;
+    line-height: 1;
 }
 ol, ul {
-	list-style: none;
+    list-style: none;
 }
 blockquote, q {
-	quotes: none;
+    quotes: none;
 }
 blockquote:before, blockquote:after,
 q:before, q:after {
-	content: '';
-	content: none;
+    content: '';
+    content: none;
 }
 table {
-	border-collapse: collapse;
-	border-spacing: 0;
+    border-collapse: collapse;
+    border-spacing: 0;
 }
-
 
 body{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     color:rgb(0, 0, 0);
-    background-color: rgb(96, 207, 207); 
+    background-color: rgb(96, 207, 207);
+    
     
 }
 
 .container{
     align-content: center;
-    max-width: 70%;
+    max-width: Good 70%;
     margin-left: 15%;
     margin-right: 15%;
     background-color: #d8fcf9;
     font-size: 1rem;
+    padding:0em 2em 2em 2em;
     line-height: 1.5em;
     position: relative;
-    padding-bottom: 10px;
-}
-
-main{
-    padding: 10px;
 }
 
 .centertext{
+    
     top: 50%;
     left: 50%;
+    text-align: center;
     font-size: 45px;
     color:white;
-    text-align: center;
-}
-
-.banner{
-    position:relative;
-    background: rgb(2, 85, 85) url(/midterm/image/starfishbanner.jpg) no-repeat center center;
-    background-size: cover;
-    padding:10em;
+  
 }
 
 nav ul a{
-    color:rgb(0, 0, 0);
     text-decoration: none;
-    font-size: 1.5rem;
-    text-align: center;
-    }
+    list-style: none;
+    color: black;
+}
 
     nav ul a:hover{
-    color: teal;
+        color: teal;
     }
 
     nav li{
     display: inline;
     color: rgb(0, 0, 0);
-    text-decoration: none;
+    padding: 20px;
+    text-align: center;
+ 
     }
 
     .menuitems{
+        text-decoration: none;
+        margin: auto;
+        font-size: 1.5rem;
         text-align: center;
-    }
-    
-    #index{
-        margin-right: 100px;
-        padding: 10px 100px 10px 50px;
-        border-right :1px solid black;
+        color: black;
         }
 
-    #story{
-        margin-right: 50px;
-        margin-left: 50px;
-        padding: 10px;
-    
-        }
-    
-    #contact{
-            margin-left: 100px;
-            padding: 10px 50px 10px 100px;
-            border-left:1px solid black;
-            }
+       
 
 
 img[src$="starfish.jpg"] {
-width: 200px;
-height: auto;
-float:left;
-margin: 0px 10px 5px 0px;
-
+width: 250px;
+float: left;
+margin: 10px 12px 10px 0px;
 }
 
 #title2{
     font-size: 30px;
-    margin-top: 1.5em;
-    margin-bottom: 0.5em;
 }
 
 .title3{
     font-size:25px;
-    color: rgb(0, 0, 0);
-    margin-top: 0.5em;
-    margin-bottom: 0.5em;
-}
-
-
-.title4{
-    font-size:25px;
-    color: rgb(0, 0, 0);
-    margin-top: 0.5em;
-    margin-bottom: 0.5em;
 }
 
 #list{
     list-style-type: square;
-    padding: 5px 0px 5px 20px;
-
 }
 
 form{
@@ -183,16 +145,10 @@ form{
 }
 button{
     background-color: #d8fcf9;
-    padding: 6px;
-    margin: 10px 0px 10px 0px;
-}
-
-label{
-    margin: 5px;
 }
   
-
 footer{
-    margin: 10px 10px 20px 10px;
+    margin-top: 10px;
     text-align: right;
 }
+
