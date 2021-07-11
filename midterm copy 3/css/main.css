@@ -52,9 +52,8 @@ body{
 
 .container{
     align-content: center;
-    max-width: 70%;
-    margin-left: 15%;
-    margin-right: 15%;
+    max-width: 400px;
+    margin:0 auto;
     background-color: #d8fcf9;
     font-size: 1rem;
     line-height: 1.5em;
@@ -78,8 +77,7 @@ main{
 
 .banner{
     background: rgb(2, 85, 85) url(/midterm/image/starfishbanner.jpg) no-repeat center center;
-    background-size: cover;
-    height: 300px;
+   width: 100%;
     margin-bottom: 15px;
     
 }
