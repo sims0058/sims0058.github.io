@@ -1,0 +1,302 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+/* CSS RESET */
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* CSS RESET */
+
+html{
+	font-family: 'Open Sans', sans-serif;
+	font-size: 14px;
+	box-sizing: border-box;
+}
+
+.container {
+	max-width: 1200px;
+	margin: 0 auto;
+	padding: 1em;
+  }
+
+
+body {
+	line-height: 1.5;
+  }
+  
+  *,
+  *:after,
+  *:before {
+	box-sizing: inherit;
+	line-height: inherit;
+  }
+  
+  .clearfix:after {
+	content: '';
+	display: table;
+	clear: both;
+  }
+  nav ul li a,
+  nav ul li a:link,
+  nav ul li a:visited {
+	color: #c78c06;
+  }
+  
+  a:hover,
+  a:focus {
+	color:  #c78c06;
+  }
+  
+  nav ul a{
+	  text-decoration: none;
+	  color: #222;
+  }
+
+  /* BUTTON */
+
+  .btn{
+	  text-decoration: none;
+	  background-color: #222;
+	  color: white;
+	  border: none;
+	  padding: 15px 32px;
+	  text-align: center;
+	  display: inline-block;
+	  font-size: 16px;
+	  }
+	 
+	  .connectbtn{
+		text-decoration: none;
+		background-color: #c78c06;
+		color: #222;
+		border: none;
+		padding: 15px 32px;
+		text-align: center;
+		display: inline-block;
+		font-size: 16px;
+		}
+
+		.visionbtn{
+			text-decoration: none;
+			background-color: #222;
+			color: white;
+			border-style: solid;
+			border-color: #c78c06;
+			padding: 15px 32px;
+			text-align: center;
+			display: inline-block;
+			font-size: 16px;
+			border-width: 1px;
+			}
+
+ /* TEXT */
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-weight: bold;
+  margin: 1em 0 0.5em;
+}
+
+h1 {
+  font-size: 4rem;
+}
+
+h2 {
+  font-size: 3rem;
+}
+
+h3 {
+  font-size: 2rem;
+}
+
+h4 {
+  font-size: 1.5rem;
+}
+
+h5 {
+  font-size: 1rem;
+}
+
+p {
+  margin: 1em 0;
+}
+
+img {
+	width: 100%;
+  }
+
+  header img{
+	 width: inherit;
+  }
+
+/* NAVIGATION */
+
+.nav{
+	background-color: #222;	
+}
+
+.unorderlist li {
+text-align: center;
+  }
+  
+  nav ul a:hover{
+    background-color:#c78c06 ;
+    }
+
+
+
+  .unorderlist a,
+  .unorderlist a:link,
+  .unorderlist a:visited {
+	display: block;
+	padding: 1em 0;
+	text-decoration: none;
+  }
+  
+  .unorderlist a:hover,
+  .unorderlist a:focus,
+  .unorderlist a.current {
+	background-color: #c78c06;
+	color: inherit;
+  }
+
+  form.example{
+	margin: 1em;
+	padding: 1em;
+	padding: 10px;
+	background-color: #222;
+	max-width: 1200px;
+	text-align: center; 
+	}
+	
+	    form.example input[type=text] {
+		padding: 10px;
+		border: 1px solid grey;
+		float: left;
+		width: 95%;
+		background-color: white;
+	  }
+
+	  form button{
+		color :#c78c06;
+		padding: 10px;
+		background-color:#222;
+		border: 1px solid #c78c06;
+	} 
+
+
+	.banner{
+		
+		background: grey url("../images/main-banner.jpg") no-repeat;
+		background-size: cover;
+		align-content: center;
+
+	}
+
+	  .banner h1 {
+		color: white;
+		margin: 0;
+		padding-top: 20px;
+		text-align: center;
+	  }
+
+	  .banner-content{
+		padding: 20px
+	}
+
+	.black{
+		
+		background-color: rgba(0, 0, 0, 0.5);
+		opacity: 0.9;
+		
+	}
+
+	/* BANNER */
+
+
+	#about{
+		background-color: #ffe6ac;
+		padding: 20px;
+
+	}
+
+	.digital,
+	.marketing,
+	.video,
+	.web,
+	.print,
+	.teampadding,
+	thead,
+	.John-image,
+	.Bob-image
+	{
+		background-color: #ffe6ac;
+	}
+
+	i{
+	padding-left: 0.4em;	
+	}
+
+	.contentpedding,
+	.teampadding,
+	.vision-content{
+		padding: 1em;
+	}
+	
+	#vision{
+		background: rgb(0, 0, 0) url("../images/vision.jpg") no-repeat;
+		background-size: cover;
+		color: white;
+
+	}
+
+
+  /* MOBILE SECTION */
+
