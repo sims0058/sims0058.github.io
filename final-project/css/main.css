@@ -168,6 +168,10 @@ p {
   margin: 1em 0;
 }
 
+#whitetext{
+	color: white;
+}
+
 img {
 	width: 100%;
   }
@@ -189,7 +193,6 @@ text-align: center;
   nav ul a:hover{
     background-color:#c78c06 ;
     }
-
 
 
   .unorderlist a,
@@ -231,12 +234,15 @@ text-align: center;
 		border: 1px solid #c78c06;
 	} 
 
-
+/* BANNER */
 	.banner{
 		
 		background: grey url("../images/main-banner.jpg") no-repeat;
 		background-size: cover;
 		align-content: center;
+		height: auto;
+		width: auto;
+
 
 	}
 
@@ -249,16 +255,20 @@ text-align: center;
 
 	  .banner-content{
 		padding: 20px
+		
 	}
 
 	.black{
 		
 		background-color: rgba(0, 0, 0, 0.5);
-		opacity: 0.9;
+		opacity: 1.9;
+		padding: 50px;
+		height: auto;
+		width: auto;
 		
 	}
 
-	/* BANNER */
+	/* BANNER end*/
 
 
 	#about{
@@ -293,10 +303,80 @@ text-align: center;
 	#vision{
 		background: rgb(0, 0, 0) url("../images/vision.jpg") no-repeat;
 		background-size: cover;
+		align-content: center;
 		color: white;
+		background-position:center;
+		margin-top: 2em;
 
 	}
 
+	/* LINE */
 
-  /* MOBILE SECTION */
+	section div h4{
+		border-bottom: 2px solid #c78c06;
+	}
+		section div h4{
+			border-bottom: 2px solid #c78c06;
+		}
+	/* FORM */
 
+	#fullname{
+    width: 100%;
+    padding: 4px;
+}
+
+#youremail{
+    width: 100%;
+    padding: 4px;
+}
+
+#message{
+    width: 100%;
+    height: 100px;
+    padding: 4px;
+}
+
+#sendbutton{
+	color: white;
+    background-color: yellow;
+    padding: 6px;
+    margin: 10px 0px 10px 0px;
+}
+
+/* TABLE*/ 
+
+table {
+	border: 1px solid black;
+	text-align:center;
+	width: 100%;
+    height: 40px;
+	
+}
+
+td, th{
+	border: 1px solid black;
+	height: 40px;
+	
+}
+
+/* FOOTER*/ 
+
+iframe{
+width: 100%;
+}
+
+/* FOOTER*/ 
+footer{
+	color: #c78c06;
+	background-color: #222;
+	padding: 5px;
+}
+
+footer div p a{
+	color:#c78c06;
+}
+
+
+/* -------------------------------
+        Mobile Styles
+---------------------------------- */
