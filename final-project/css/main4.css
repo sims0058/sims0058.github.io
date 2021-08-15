@@ -57,6 +57,11 @@ html{
 	box-sizing: border-box;
 }
 
+body {
+	max-width: 1200px;
+	margin: 0 auto;
+	padding: 1em;
+  }
 
 
 body {
@@ -335,8 +340,6 @@ text-align: center;
 			max-width: 1200px;
 
 		}
-
-
 	/* FORM */
 
 	#fullname{
@@ -355,17 +358,17 @@ text-align: center;
     padding: 4px;
 }
 
-.send input{
-	background-color: #222;
-	color: #c78c06;
-	padding: 6px;
+#sendbutton{
+	color: white;
+    background-color: yellow;
+    padding: 6px;
     margin: 10px 0px 10px 0px;
 }
 
 /* TABLE*/ 
 
 table {
-	border: 1px solid #222;
+	border: 1px solid black;
 	text-align:center;
 	width: 100%;
     height: 40px;
@@ -373,13 +376,8 @@ table {
 }
 
 td, th{
-	border: 1px solid #222;
+	border: 1px solid black;
 	height: 40px;
-	
-}
-
-
-
 	
 }
 
@@ -414,11 +412,6 @@ footer div p a{
 		width: 95%;
 	  }
 
-	  body {
-		max-width: 1200px;
-		margin: 0 auto;
-		padding: 1em;
-	  }
  
 /* Navigation */
 
@@ -603,9 +596,8 @@ margin: 6px;
 	  font-size: 16px;
 	}
 
-	body{
-		margin-left: 5px;
-		margin-right: 5px;
+	html{
+		background-color: tomato;
 	}
 
 	.logo{
